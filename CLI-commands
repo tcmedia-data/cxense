@@ -1,0 +1,33 @@
+download cx.py and drop it somewhere in your path  
+
+configure your auth creds
+  Create .cxrc file in your home folder 
+  Add the following line 
+    authentication <your user name is your email> <the key generated in the UI>
+
+list all the sites associated with your profile 
+  python cx.py /site
+    sample response
+    {
+      "id": "1139578605085513193",  #this is the Site ID and is used in most API calls 
+      "name": "La Frontiere", 
+      "url": "http://www.lafrontiere.ca/", 
+      "domains": [], 
+      "country": "CA", 
+      "timeZone": "America/Montreal", 
+      "permissions": [
+        {
+          "username": "james.tweedie@tc.tc", 
+          "read": true, 
+          "write": true
+        }
+      ], 
+      "historyStart": 1433704028, 
+      "dmp": true,                  #this is the flag for the dmp configuration - if false open a ticket with Support
+      "sentimentDetection": true, 
+      "automaticCrawling": true
+    }
+    
+list all the site groups associated with your profile 
+  python cx.py /site/group
+
