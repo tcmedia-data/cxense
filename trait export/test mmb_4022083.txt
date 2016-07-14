@@ -1,0 +1,1 @@
+{"sid":4022083,"traitType":"ALGO_TRAIT","name":"test mmb","description":"test mmb","status":"ACTIVE","permissions":["READ","WRITE","CREATE","DELETE","MAP_TO_SEGMENTS","MAP_TO_MODELS","CREATE_ALGO_TRAITS"],"pid":1458,"crUID":0,"upUID":0,"integrationCode":"","algoModelId":3918,"thresholdType":"ACCURACY","processed":true,"accuracy":0.0,"dataSourceId":1482,"folderId":66305}
