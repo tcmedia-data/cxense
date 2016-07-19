@@ -1,5 +1,4 @@
 import cx
-import csv
 import json
 
 def listURLSiteIDs():
